@@ -1,0 +1,34 @@
+POST http://127.0.0.1:8000/api/transactions/
+Content-Type: application/json
+
+{
+    "text": "Salaire Mars",
+    "amount": 6000.00
+}
+
+###
+
+GET http://127.0.0.1:8000/api/transactions/
+
+###
+
+DELETE http://127.0.0.1:8000/api/transactions/00da0cb1-ea03-428d-8209-3facd5c16e52/
+
+###
+
+PUT http://127.0.0.1:8000/api/transactions/d3145dec-dcc4-49e0-969b-8bf7785421eb/
+Content-Type: application/json
+
+{
+    "text": "Salaire Avril",
+    "amount": 3000.00
+}
+
+###
+
+PATCH http://127.0.0.1:8000/api/transactions/d3145dec-dcc4-49e0-969b-8bf7785421eb/
+Content-Type: application/json
+
+{
+    "amount": 4000.00
+}
