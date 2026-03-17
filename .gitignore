@@ -19,3 +19,6 @@ frontend/.env.production.local
 # OS
 .DS_Store
 Thumbs.db
+
+# Documentation locale
+documentation_detaillee.md
